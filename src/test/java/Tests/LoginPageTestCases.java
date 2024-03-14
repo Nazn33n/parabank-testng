@@ -18,14 +18,14 @@ public class LoginPageTestCases extends TestBase {
 
     @BeforeMethod
     public void setUp(){
-        initialization();
+        initialization("loginUrl");
         loginPage = new LoginPage();
 
     }
 
 
     @Test
-    public void loginTest(){
+    public void loginTest() throws InterruptedException {
         homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
     }
 

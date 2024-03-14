@@ -1,4 +1,17 @@
-url = https://parabank.parasoft.com/parabank/index.htm
-username = Qatest
+loginUrl = https://parabank.parasoft.com/parabank/index.htm
+//for login
+username = Zobby11
 password = Naz@1234
 browser = chrome
+//for register
+registerUrl = https://parabank.parasoft.com/parabank/register.htm
+firstName = Zobby
+lastName = Rahman
+address = Banani
+city = Ctg
+state = Dhaka
+zipCode = 1225
+phoneNumber = 888-305-0041
+ssn = 859
+confirm_pass = Naz@1234
+
